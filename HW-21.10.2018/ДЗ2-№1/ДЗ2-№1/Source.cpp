@@ -107,7 +107,7 @@ ostream& operator <<(ostream &out, const rational &A) //operator <<
 	return out;
 }
 int main() {
-	rational A(1, 2), B(-1, 6); //example rational A and B
+	rational A(1, 1), B(-2, 3); //example rational A and B
 	cout << "A = " << A << " B = " << B << endl;
 	cout << "A + B = " << A + B << endl;//arifm +
 	cout << "A - B = " << A - B << endl;//arifm -
